@@ -52,7 +52,7 @@ def poner_etiqueta(label):
 
     # Draw text
     text = str(label)
-    font_path = "base/Exo-Regular.ttf"  # Replace with the actual path to your .ttf font file
+    font_path = "base/Glacial_Indifference.otf"  # Replace with the actual path to your .ttf font file
     font_size = 130
     font = ImageFont.truetype(font_path, font_size)
     text_color = (59, 196, 160)  # RGB color tuple for the color of the delegation
