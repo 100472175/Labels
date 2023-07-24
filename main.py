@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw, ImageFont, ImageColor
+from PIL import Image, ImageDraw, ImageFont
 import openpyxl
 import concurrent.futures
 import time
@@ -67,7 +67,7 @@ def poner_etiqueta(label):
 
     # Draw the text and save it to the output path
     draw.text((text_x, text_y), text, font=font, fill=text_color)
-    output_path = "salida/" + str(label) + "_pegatina.png"
+    output_path = "output/" + str(label) + "_pegatina.png"
     image.save(output_path)
     print("Etiqueta " + str(label) + " generada.")
 
